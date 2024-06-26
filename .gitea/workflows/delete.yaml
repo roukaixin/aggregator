@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Delete
-        uses: GitRML/delete-workflow-runs@main
+        uses: https://gitea.com/GitRML/delete-workflow-runs@main
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
